@@ -1,0 +1,146 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+
+.sub1,
+.sub2 {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  color: rgb(95, 99, 104);
+}
+
+/* Profile Button */
+.n {
+  border: 2px solid #f05c18;
+  padding: 10px;
+  color: white;
+  background-color: #f05c18;
+  border-radius: 50px;
+  height: 10px;
+  width: 10px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main Google section */
+main {
+  flex: 1;
+}
+
+.google {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 60px 20px;
+}
+
+/* Search bar */
+.search {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(228, 225, 225);
+  height: 7vh;
+  width: 40vw;
+  border-radius: 47px;
+  box-shadow: 2px 2px 2px 2px rgb(228, 225, 225);
+  padding: 0 20px;
+}
+
+.search .icons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.icons .one,
+.icons .two {
+  display: flex;
+  gap: 10px;
+  color: rgb(95, 99, 104);
+  opacity: 0.6;
+}
+
+/* Buttons */
+.text button {
+  border: none;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-size: 14px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Language section */
+.last {
+  font-size: 13px;
+  color: #3c4043;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background-color: rgb(240, 239, 239);
+  width: 100%;
+}
+
+.india {
+  padding: 15px 30px;
+  background-color: rgb(240, 239, 239);
+  
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 15px 30px;
+  background-color: rgb(240, 239, 239);
+  border-top: 1px solid #d2d4d6;
+ 
+}
+
+.bottom,
+.bottom2 {
+  display: flex;
+  gap: 15px;
+  font-size: 14px;
+}
+.get{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
